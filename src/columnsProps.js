@@ -1,0 +1,15 @@
+export default {
+  title: String | Function,
+  tooltip: String,
+  ellipsis: Boolean,
+  copyable: Boolean,
+  valueType: String,
+  valueEnum: Object,
+  order: Number,
+  fieldProps: Object,
+  formItemProps: Object,
+  renderFormItem: Function,
+  search: Boolean | Object,
+  hideInSearch: Boolean,
+  hideInTable: Boolean,
+};
